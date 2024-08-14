@@ -1,0 +1,139 @@
+/* Reset default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font styles */
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style the button */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Add hover effect */
+.button:hover {
+    background-color: #fff;
+    color: #fff;
+}
+
+/* Add click effect */
+.grow:active {
+    background-color: #777;
+}
+
+/* Add animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button.animated {
+    animation: pulse 1s infinite;
+}
+
+/* Center the content */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0;
+    
+}
+
+/* Style the kettle image */
+.kettle-image {
+    width: 300px;
+    height: auto;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style the paragraph */
+p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Style the item */
+.item {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Style the header */
+.header {
+    background-color: #331;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.grow:hover {
+    transform: scale(1.2);
+    transition: transform 0.3s ease;
+}
+
+
+@font-face {
+    font-family: 'Biblical';
+    src: url('fonts/stamashkenazclm-webfont.ttf') format('truetype');
+}
+
+.biblical {
+    font-family: 'Biblical', sans-serif;
+    font-size: x-large;
+}
+.biblical_item {
+    font-family: 'Biblical', sans-serif;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size:x-large;
+}
+
+
+
+@font-face {
+    font-family: 'sefaradi';
+    src: url('fonts/stamsefaradclm-webfont.ttf') format('truetype');
+}
+
+.sefaradi {
+    font-family: 'sefaradi', sans-serif;
+}
